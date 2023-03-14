@@ -17,7 +17,7 @@ const VideoItem = ({id, snippet, statistics, isFavorite}:VideoItemProps) => {
   const dispatch = useAppDispatch();
 
   return (
-    <div className={`w-60 shadow-lg my-5 border-secondary border-5 rounded border p-3 d-flex flex-column align-items-center ${css.mainCard}`}>
+    <div className={`shadow-lg my-5 border-secondary border-5 rounded border p-3 d-flex flex-column align-items-center ${css.mainCard}`}>
         <h2 className={css.title}>{snippet.title.slice(0,25)}</h2>
            <YouTube videoId={id} opts={youTubeSize} />
            <span>Views: {Number(statistics.viewCount).toLocaleString("en-US")}</span>
