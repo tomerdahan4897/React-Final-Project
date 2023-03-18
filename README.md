@@ -25,9 +25,13 @@ To run the project, use the following command in the terminal:
 npm start or yarn start.
 
 Student Name: Tomer Dahan.
+
 Course Code: W140722MR.
+
 Email: tomer.dahan10@gmail.com
+
 Phone: 054-7002548
+
 
 
 Enjoy!!! :)
