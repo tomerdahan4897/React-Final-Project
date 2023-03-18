@@ -24,6 +24,8 @@ Install the project dependencies: npm install
 To run the project, use the following command in the terminal:
 npm start or yarn start.
 
+##Student Details:
+
 Student Name: Tomer Dahan.
 
 Course Code: W140722MR.
